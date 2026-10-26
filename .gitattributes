@@ -1,0 +1,7 @@
+*.pdf binary
+*.png binary
+*.jpg binary
+*.xlsx binary
+*.pptx binary
+*.parquet binary
+*.joblib binary

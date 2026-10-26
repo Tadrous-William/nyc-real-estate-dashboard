@@ -1,0 +1,35 @@
+{
+  "trained_rows": 155643,
+  "train_period": "2019-01 to 2025-12",
+  "test_period": "2026-01 to 2026-08",
+  "test": {
+    "median_abs_pct_error": 0.1530867429529283,
+    "mean_abs_pct_error": 0.24509192340050848,
+    "within_10pct": 0.322894550601557,
+    "within_20pct": 0.6282731776362349,
+    "r2_log_price": 0.6529496679960227,
+    "n": 11304
+  },
+  "baseline_test": {
+    "median_abs_pct_error": 0.22693666984676097,
+    "mean_abs_pct_error": 0.30734382660502024,
+    "within_10pct": 0.21992215145081387,
+    "within_20pct": 0.4410828025477707,
+    "r2_log_price": 0.4453321285441403,
+    "n": 11304
+  },
+  "trees": 380,
+  "feature_importance": {
+    "zip_code": 0.29330000281333923,
+    "neighborhood": 0.20430000126361847,
+    "borough_name": 0.14169999957084656,
+    "gross_square_feet": 0.10199999809265137,
+    "residential_units": 0.10189999639987946,
+    "land_square_feet": 0.03669999912381172,
+    "t": 0.034699998795986176,
+    "longitude": 0.025299999862909317,
+    "latitude": 0.020400000736117363,
+    "property_type": 0.019999999552965164,
+    "year_built": 0.019600000232458115
+  }
+}
